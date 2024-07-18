@@ -7,7 +7,7 @@ import 'package:news_app/features/daily_news/data/data_sources/remote/news_api_s
 import 'package:news_app/features/daily_news/data/models/article.dart';
 import 'package:news_app/features/daily_news/domain/repository/article_repository.dart';
 
-class ArticleRepositoryImpl implements ArcticleRepository {
+class ArticleRepositoryImpl implements ArticleRepository {
   final NewsApiService _newsApiService;
 
   ArticleRepositoryImpl(this._newsApiService);
